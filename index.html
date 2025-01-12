@@ -3,28 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather App</title>
   </head>
   <body>
-    <h1>Weather Application</h1>
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://1stgit.netlify.app/" target="_blank">Chris Baird</a>
-        and is
-        <a
-          href="https://github.com/chrislegato/1st-Git-Netlify-Project"
-          target="_blank"
-        >
-          on GitHub</a
-        >
-        and
-        <a
-          href="https://app.netlify.com/sites/weatherapp-cjb/overview"
-          target="_blank"
-          >hosted on Netlify</a
-        >
-      </p>
-    </footer>
+    <div class="weatherapp-cjb">
+      <header>
+        <form>
+          <input
+            type="search"
+            placeholder="Enter a city."
+            minlength="2"
+            required
+          />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>New York City</h1>
+          <p>Sunday 16:19 Scattered flurries</p>
+          <br />
+          <p>Humidity 44%, Wind 24 Km/hr</p>
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://1stgit.netlify.app/" target="_blank">Chris Baird</a>
+          and is
+          <a
+            href="https://github.com/chrislegato/1st-Git-Netlify-Project"
+            target="_blank"
+          >
+            on GitHub</a
+          >
+          and
+          <a
+            href="https://app.netlify.com/sites/weatherapp-cjb/overview"
+            target="_blank"
+            >hosted on Netlify</a
+          >
+        </p>
+      </footer>
+    </div>
   </body>
 </html>

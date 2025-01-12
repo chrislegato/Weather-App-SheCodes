@@ -1,0 +1,9 @@
+body {
+  background-color: #f6f5fa;
+}
+.weatherapp-cjb {
+  background: aliceblue;
+  max-width: 600px;
+  margin: 30 auto;
+  padding: 25px;
+}
