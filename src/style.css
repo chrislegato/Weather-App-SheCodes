@@ -57,6 +57,7 @@ main {
 
 .current-city {
   font-size: 38px;
+  line-height: 48px;
   font-weight: 900;
   margin: 0;
 }
@@ -85,9 +86,9 @@ main {
 
 .current-temperature-unit {
   font-size: 28px;
-  margin-top: 12px;
+  margin: relative;
+  top: -38px;
 }
-
 footer {
   border-top: 1px solid #f9f7fe;
   text-align: center;
