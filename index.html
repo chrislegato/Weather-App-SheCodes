@@ -14,24 +14,33 @@
     <title>Weather App</title>
   </head>
   <body>
-    <div class="weatherapp-cjb">
+    <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
-            placeholder="Enter a city."
-            minlength="2"
+            placeholder="Enter a city.."
             required
+            class="search-input"
+            id="search-input"
           />
-          <input type="submit" value="search" />
+          <input type="submit" value="Search" class="search-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>New York City</h1>
-          <p>Sunday 16:19 Scattered flurries</p>
-          <br />
-          <p>Humidity 44%, Wind 24 Km/hr</p>
+        <div class="current-weather">
+          <div>
+            <h1 class="current-city" id="current-city">Paris</h1>
+            <p class="current-details">
+              <span id="current-date"></span>, moderate rain <br />
+              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+            </p>
+          </div>
+          <div class="current-temperature">
+            <span class="current-temperature-icon">☀️</span
+            ><span class="current-temperature-value">24</span
+            ><span class="current-temperature-unit">°C</span>
+          </div>
         </div>
       </main>
       <footer>
