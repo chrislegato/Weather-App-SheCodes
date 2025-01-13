@@ -1,9 +1,16 @@
 body {
   background-color: #f6f5fa;
+  font-family: "Roboto", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 .weatherapp-cjb {
   background: aliceblue;
   max-width: 600px;
-  margin: 30 auto;
+  margin: 40px auto;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 15px;
   padding: 25px;
 }
