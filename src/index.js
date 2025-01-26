@@ -51,7 +51,7 @@ function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-form-input");
 
-  searchCity(searchInput.value);
+  searchCity(searchInput.value.trim);
 }
 
 function formatDay(timestamp) {
